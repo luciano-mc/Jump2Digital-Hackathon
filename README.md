@@ -14,16 +14,16 @@ También, puedes utilizar las instrucciones para realizarlo en local.
 
 ## Instrucciones
 Clona el repositorio de GitHub en tu máquina local. Puedes hacerlo utilizando el siguiente comando en tu terminal:
-### git clone https://github.com/luciano-mc/jump2digital-hackathon
+### `git clone https://github.com/luciano-mc/jump2digital-hackathon`
 
 Navega hasta el directorio del proyecto. Una vez que el repositorio se haya clonado en tu máquina, navega hasta ese directorio utilizando el comando:
-### cd jump2digital-hackathon
+### `cd jump2digital-hackathon`
 
 Instala las dependencias del proyecto. Si tu proyecto utiliza npm (Node Package Manager), puedes instalar todas las dependencias utilizando el comando:
-### npm install
+### `npm install`
 
 Ejecuta la aplicación. Finalmente, puedes iniciar la aplicación utilizando el comando:
-### npm start
+### `npm start`
 
 Esto debería iniciar la aplicación en tu navegador local. 
 La URL es http://localhost:5173
