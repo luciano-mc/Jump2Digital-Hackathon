@@ -1,0 +1,98 @@
+/* Fonts: Creepster and Montserrat */
+@import url('https://fonts.googleapis.com/css2?family=Creepster&family=Montserrat:wght@300;400;500;700&display=swap');
+
+/* Color Palette
+    #44281d
+    #e4a788 	
+    #f0e14a 	
+    #97ce4c 	
+    #e89ac7
+*/
+
+/* Mobile */
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(213, 219, 206);
+    font-family: 'Montserrat', sans-serif;
+    padding: 20px;
+    max-width: 100%;
+    overflow-x: hidden; 
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.header {
+    text-align: center;
+    width: 100%;
+}
+
+.logo__container {
+    display: flex;
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.logo {
+    width: 100%;
+}
+
+.header__title {
+    font-family: 'Creepster', sans-serif;
+    margin: 10px;
+}
+
+.header__input {
+    width: 60%;
+    outline: none;
+    border: 1px solid grey;
+    border-radius: 10px;
+    padding: 10px;
+    color: #fff;
+    font-weight: bold;
+    font-size: .7rem;
+    font-family: 'Montserrat';
+    background-color: rgb(112, 127, 94);
+}
+
+.cards__container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
+.characterName {
+    font-weight: bold;
+    color:#000;
+}
+
+.btn--load {
+    background-image: none;
+    background-color: #000;
+    cursor: pointer;
+}
+
+/* Tablets (desde 768px) */
+@media (min-width: 768px) {
+    .cards__container {
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+}
+
+/* PC */
+/* For future modifications */
+/* @media (min-width: 1024px) {
+    
+} */

@@ -1,0 +1,124 @@
+.card {
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	padding: 3rem;
+	width: 90%;
+	max-width: 300px;
+	background-color: #1b2028;
+	border-radius: 16px;
+	position: relative;
+	border: 3px solid transparent;
+	background-clip: padding-box;
+	text-align: center;
+	color: #f1f3f3;
+    height: 550px;
+}
+	
+.card:after {
+    content: "";
+    display: block;
+    top: -3px;
+    left: -3px;
+    bottom: -3px;
+    right: -3px;
+    z-index: -1;
+    position: absolute;
+    border-radius: 16px;
+    background-image: linear-gradient( 135deg, #00b0c7, #02b0c8 20%, #1b2028 30%, #2c333e 100% );
+}
+
+.card__image {
+	border-radius: 50%;
+	overflow: hidden;
+	width: 175px;
+	height: 175px;
+	position: relative;
+}
+
+.card__image img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+}
+
+.card__name {
+	font-size: 1.2rem;
+	font-weight: 600;
+	margin-top: 1.5rem;
+}
+
+.card__status {
+	color: #7d8396;
+}
+
+.card__species {
+	margin-top: 1.5rem;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.card__details {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+	margin-top: 1.5rem;
+	width: 100%;
+}
+
+.card__details__row {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.card__details__row--text {
+	color: #7d8396;
+    font-size: .8em;
+}
+
+.btn {
+	border: 0;
+	background-color: transparent;
+	padding: 0;
+	height: 46px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	line-height: 1;
+	transition: 0.15s ease;
+    font-weight: bold;
+    font-family: inherit;
+}
+
+.btn--primary {
+    border-radius: 99em;
+    background-image: linear-gradient(135deg, #4d72cb, #5f82d4);
+    color: #fff;
+    padding: 0 1.375em;
+}
+
+.btn--primary:hover,
+.btn--primary:focus {
+    background-size: 150%;
+}
+
+.btn--icon {
+    height: 46px;
+    width: 46px;
+    border-radius: 50%;
+    border: 3px solid #7d8396;
+    flex-shrink: 0;
+}
+    
+.btn--icon:hover,
+.btn--icon:focus {
+    border-color: #acb5d2;
+}
+
+.btn--icon i {
+    font-size: 1.25em;
+}
