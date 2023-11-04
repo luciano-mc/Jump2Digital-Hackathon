@@ -2,21 +2,22 @@
 ## Descripción de la aplicación
 Este proyecto fue creado con [Vite](https://vitejs.dev/).
 
-La aplicación permite explorar los personajes del multiverso de Rick y Morty. Con solo introducir el nombre, puedes descubrir información detallada sobre tus personajes favoritos, incluyendo su origen, especie, y las locaciones que han visitado.
+La aplicación permite explorar los personajes del multiverso de Rick y Morty. Con solo introducir el nombre, puedes descubrir información detallada sobre tus personajes favoritos, incluyendo su origen, especie, y las locaciones que han visitado. Utiliza una API para obtener datos en tiempo real, asegurando que siempre tengas acceso a la información más actualizada y precisa.
 
-La aplicación utiliza una API para obtener datos en tiempo real, asegurando que siempre tengas acceso a la información más actualizada y precisa.
+## Enlace
+Para comenzar a utilizarla, visita 
 
-### Enlace a la página principal de la aplicación
-Para comenzar a utilizarla, visita [página principal]. Aquí encontrarás una interfaz de usuario intuitiva y fácil de usar que te guiará a través del proceso de búsqueda y visualización de personajes.
+https://jump2digital-hackathon.vercel.app/
 
-Si no, utiliza las instrucciones para realizarlo en local
+Aquí encontrarás una interfaz de usuario intuitiva y fácil de usar que te guiará a través del proceso de búsqueda y visualización de personajes.
+También, puedes utilizar las instrucciones para realizarlo en local.
 
 ## Instrucciones
 Clona el repositorio de GitHub en tu máquina local. Puedes hacerlo utilizando el siguiente comando en tu terminal:
-### git clone https://github.com/luciano-mc/Jump2Digital-Hackathon
+### git clone https://github.com/luciano-mc/jump2digital-hackathon
 
 Navega hasta el directorio del proyecto. Una vez que el repositorio se haya clonado en tu máquina, navega hasta ese directorio utilizando el comando:
-### cd Jump2Digital-Hackathon
+### cd jump2digital-hackathon
 
 Instala las dependencias del proyecto. Si tu proyecto utiliza npm (Node Package Manager), puedes instalar todas las dependencias utilizando el comando:
 ### npm install
