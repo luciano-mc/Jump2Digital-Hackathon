@@ -43,11 +43,11 @@ Esta API proporciona acceso a datos sobre cientos de personajes, imágenes, ubic
 Detalles sobre los datos disponibles
 La API proporciona una variedad de datos para cada personaje, de los cuales utilizaremos:
 
-name: El nombre del personaje.
-status: El estado del personaje (por ejemplo, Vivo, Muerto, desconocido).
-image: La URL de la imagen del personaje.
-origin: El origen del personaje, que incluye el nombre y la URL del origen. En la APP lo veras con el icono del planeta tierra.
-location: La última ubicación conocida del personaje, que incluye el nombre y la URL de la ubicación. En la app lo veras con el icono del pin.
+name: El nombre del personaje.  
+status: El estado del personaje (por ejemplo, Vivo, Muerto, desconocido).  
+image: La URL de la imagen del personaje.  
+origin: El origen del personaje, que incluye el nombre y la URL del origen. En la APP lo veras con el icono del planeta tierra.  
+location: La última ubicación conocida del personaje, que incluye el nombre y la URL de la ubicación. En la app lo veras con el icono del pin.  
 
 ## Tecnologías
 - HTML, CSS, React, Typescript. Vite
