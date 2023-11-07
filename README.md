@@ -23,7 +23,7 @@ Instala las dependencias del proyecto. Si tu proyecto utiliza npm (Node Package 
 ### `npm install`
 
 Ejecuta la aplicación. Finalmente, puedes iniciar la aplicación utilizando el comando:
-### `npm start`
+### `npm run dev`
 
 Esto debería iniciar la aplicación en tu navegador local. 
 La URL es http://localhost:5173
